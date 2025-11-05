@@ -1,0 +1,79 @@
+/* CS:GO Dark Theme */
+.dark-theme {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+    color: #ffffff;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Навигация в стиле CS:GO */
+.navbar-csgo {
+    background: rgba(0, 0, 0, 0.9) !important;
+    border-bottom: 2px solid #4b69ff;
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    color: #4b69ff !important;
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Карточки товаров */
+.product-card {
+    background: rgba(30, 30, 30, 0.8);
+    border: 1px solid #333;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    border-color: #4b69ff;
+    box-shadow: 0 10px 20px rgba(75, 105, 255, 0.3);
+}
+
+/* Цены и качество */
+.price {
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.quality-covert {
+    color: #eb4b4b;
+}
+
+.quality-classified {
+    color: #d32ce6;
+}
+
+.quality-mil-spec {
+    color: #4b69ff;
+}
+
+.quality-industrial {
+    color: #5e98d9;
+}
+
+/* Стили для уведомлений */
+.alert-success {
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(76, 175, 80, 0.3);
+}
+
+/* Анимации */
+.product-card {
+    transition: all 0.3s ease;
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%) !important;
+    border: none;
+}
