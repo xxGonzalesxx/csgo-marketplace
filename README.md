@@ -41,3 +41,4 @@ csgo-marketplace/
 
 ## Разработчики
 [xxGonzalesxx]
+💎 Обновлено ради ачивки Pair Extraordinaire
